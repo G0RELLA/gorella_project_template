@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Results &amp; outcomes</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -50,8 +50,10 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Poster &amp; manuscript" href="poster_manuscript.html" />
+    <link rel="prev" title="Data analyses" href="data_analyses.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -84,7 +86,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="overview.html">
    Overview &amp; motivation
@@ -115,8 +117,8 @@
    Data analyses
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="results.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Results &amp; outcomes
   </a>
  </li>
@@ -168,6 +170,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/results.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -179,10 +198,12 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/G0RELLA/gorella_project_template/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/G0RELLA/gorella_project_template/issues/new?title=Issue%20on%20page%20%2Fresults.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
+        <a class="edit-button" href="https://github.com/G0RELLA/gorella_project_template/edit/master/lecture/results.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -200,6 +221,24 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hypothesis-1">
+   Hypothesis 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hypothesis-2">
+   Hypothesis 2
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -208,19 +247,50 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="results-outcomes">
+<h1>Results &amp; outcomes<a class="headerlink" href="#results-outcomes" title="Permalink to this headline">¶</a></h1>
+<p>Please provide information on the obtained results and all other outcomes of the project.</p>
+<ul class="simple">
+<li><p>What results did the applied analyses yield?</p></li>
+</ul>
+<div class="section" id="hypothesis-1">
+<h2>Hypothesis 1<a class="headerlink" href="#hypothesis-1" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="hypothesis-2">
+<h2>Hypothesis 2<a class="headerlink" href="#hypothesis-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Were there other outcomes of the project (e.g. software, etc.)?</p></li>
+</ul>
+</div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
         
         <div class='prev-next-bottom'>
             
+    <a class='left-prev' id="prev-link" href="data_analyses.html" title="previous page">Data analyses</a>
+    <a class='right-next' id="next-link" href="poster_manuscript.html" title="next page">Poster &amp; manuscript</a>
 
         </div>
         

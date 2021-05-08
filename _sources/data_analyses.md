@@ -1,31 +1,12 @@
 # Data analyses
 
-## Lecture/Practice 5 - Data structures & quality control
+Provide readers/users with a general outline of the conducted analyses and corresponding outcomes.
 
-### Lecture slides and feedback
+## Overview
 
-### Practice materials and feedback
-
-## Lecture/Practice 6 - Preprocessing
-
-### Lecture slides and feedback
-
-### Practice materials and feedback
-
-## Lecture/Practice 7 - Inferential measures
-
-### Lecture slides and feedback
-
-### Practice materials and feedback
-
-## Lecture/Practice 8 - Aspects of data modelling
-
-### Lecture slides and feedback
-
-### Practice materials and feedback
+Provide information concerning the different analysis parts, as well as links to respective notebooks.
 
 ## Outcomes
 
-### Updated/final preregistration
-
-### Jupyter notebooks and walk-throughs
+Provide information concerning the outcomes of the different analysis parts, as well as links to further
+details on data access.
