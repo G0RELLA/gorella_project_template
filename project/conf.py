@@ -54,8 +54,8 @@ html_title = ""
 html_theme = "sphinx_book_theme"
 html_logo = ""
 html_theme_options = {
-    "github_url": "link_to_project_github",
-    "repository_url": "link_to_project_github",
+    "github_url": "https://github.com/G0RELLA/gorella_project_template",
+    "repository_url": "https://github.com/G0RELLA/gorella_project_template",
     "repository_branch": "master",
     "use_edit_page_button": True,
     "path_to_docs": "docs/",
