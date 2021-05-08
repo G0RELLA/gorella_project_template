@@ -16,9 +16,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'gorella_base'
-copyright = '2020, G0RELLA'
-author = 'Peer Herholz, José C. García Alanis, Christoph Vogelbacher'
+project = 'gorella_project_name'
+copyright = 'Year, Name'
+author = 'Author, Names'
 
 master_doc = "index"
 
@@ -54,8 +54,8 @@ html_title = ""
 html_theme = "sphinx_book_theme"
 html_logo = "_static/gorella_logo.png"
 html_theme_options = {
-    "github_url": "https://github.com/G0RELLA/gorella_base",
-    "repository_url": "https://github.com/G0RELLA/gorella_base",
+    "github_url": "link_to_project_github",
+    "repository_url": "link_to_project_github",
     "repository_branch": "master",
     "use_edit_page_button": True,
     "path_to_docs": "docs/",
