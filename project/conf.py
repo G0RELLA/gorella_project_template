@@ -52,7 +52,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**.ipynb_checkpoints"]
 #
 html_title = ""
 html_theme = "sphinx_book_theme"
-html_logo = "_static/gorella_logo.png"
+html_logo = ""
 html_theme_options = {
     "github_url": "link_to_project_github",
     "repository_url": "link_to_project_github",
